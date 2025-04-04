@@ -12,6 +12,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 # from .layers import DropPath
+from timm.models.layers import DropPath
 
 def _make_divisible(v, divisor, min_value=None):
     """
